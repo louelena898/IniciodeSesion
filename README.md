@@ -6,7 +6,6 @@ C#, Microsoft Forms, Mono y Visual Studio Code
 //Nombre: Usuario 
 //Password: 123
 
-# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 # CONCEPTO 1: Modificadores de Acceso (e.g., 'private', 'public')
 Controlan la visibilidad y accesibilidad de miembros (campos, métodos, propiedades) dentro de una clase o entre clases.
  
@@ -18,7 +17,6 @@ incluso otros programas) necesitan usar. Ejemplo: public void MiMetodoPublico();
  
 Otros modificadores: protected, internal, protected internal, private protected.
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # CONCEPTO 2: Tipo de Retorno 'void'
 Indica que un método no devuelve ningún valor después de su ejecución. Los métodos 'void' se utilizan cuando la función principal del método es realizar una 
 acción o un efecto secundario (mostrar algo en pantalla, guardar un archivo, etc.),  y no producir un resultado que necesite ser utilizado por quien lo llamó.
@@ -29,8 +27,6 @@ public void MostrarMensaje(string mensaje)
 Console.WriteLine(mensaje); // Realiza una acción (imprime en consola)
 }
 
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # CONCEPTO 3: Manejadores de Eventos (Event Handlers)
 Métodos especiales que se ejecutan en respuesta a un evento específico (e.g., un clic de botón, una pulsación de tecla). Siguen una firma estándar en .NET:
 public void NombreMetodo(object sender, EventArgs e)
@@ -49,7 +45,6 @@ private void btnIniciarSesion_Click(object sender, EventArgs e)
  * }
 
 
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # CONCEPTO 4: Clases y Objetos
 Clase: Es un 'plano' o 'molde' para crear objetos. Define las propiedades (datos) y los métodos (comportamientos) que los objetos de ese tipo tendrán.
 Ejemplo: public class LoginScreen : Form { ... } // LoginScreen es una clase
@@ -58,8 +53,6 @@ Objeto: Es una instancia concreta de una clase. Cuando creas un objeto, estás c
 Ejemplo: LoginScreen miVentanaLogin = new LoginScreen(); // miVentanaLogin es un objeto
 
 
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # CONCEPTO 5: Windows Forms y su uso con Mono en Linux Mint
  Windows Forms (WinForms): Tecnología de Microsoft .NET para construir interfaces gráficas de usuario para aplicaciones de escritorio en Windows. Usa 
  los controles nativos de Windows.
