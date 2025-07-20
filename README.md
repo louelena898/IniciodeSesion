@@ -2,13 +2,12 @@
 C#, Microsoft Forms, Mono y Visual Studio Code
 
 
-#INICIO DE SESION: 
+# INICIO DE SESION: 
 //Nombre: Usuario 
 //Password: 123
 
-#<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-
-CONCEPTO 1: Modificadores de Acceso (e.g., 'private', 'public')
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+# CONCEPTO 1: Modificadores de Acceso (e.g., 'private', 'public')
 Controlan la visibilidad y accesibilidad de miembros (campos, métodos, propiedades) dentro de una clase o entre clases.
  
 private: El miembro solo es accesible desde dentro de la clase en la que está definido. Es ideal para encapsular la lógica interna y los datos, ocultándolos 
@@ -19,8 +18,8 @@ incluso otros programas) necesitan usar. Ejemplo: public void MiMetodoPublico();
  
 Otros modificadores: protected, internal, protected internal, private protected.
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CONCEPTO 2: Tipo de Retorno 'void'
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CONCEPTO 2: Tipo de Retorno 'void'
 Indica que un método no devuelve ningún valor después de su ejecución. Los métodos 'void' se utilizan cuando la función principal del método es realizar una 
 acción o un efecto secundario (mostrar algo en pantalla, guardar un archivo, etc.),  y no producir un resultado que necesite ser utilizado por quien lo llamó.
 
@@ -31,8 +30,8 @@ Console.WriteLine(mensaje); // Realiza una acción (imprime en consola)
 }
 
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#CONCEPTO 3: Manejadores de Eventos (Event Handlers)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CONCEPTO 3: Manejadores de Eventos (Event Handlers)
 Métodos especiales que se ejecutan en respuesta a un evento específico (e.g., un clic de botón, una pulsación de tecla). Siguen una firma estándar en .NET:
 public void NombreMetodo(object sender, EventArgs e)
 
@@ -50,8 +49,8 @@ private void btnIniciarSesion_Click(object sender, EventArgs e)
  * }
 
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#CONCEPTO 4: Clases y Objetos
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CONCEPTO 4: Clases y Objetos
 Clase: Es un 'plano' o 'molde' para crear objetos. Define las propiedades (datos) y los métodos (comportamientos) que los objetos de ese tipo tendrán.
 Ejemplo: public class LoginScreen : Form { ... } // LoginScreen es una clase
  
@@ -60,9 +59,8 @@ Ejemplo: LoginScreen miVentanaLogin = new LoginScreen(); // miVentanaLogin es un
 
 
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#CONCEPTO 5: Windows Forms y su uso con Mono en Linux Mint
-
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CONCEPTO 5: Windows Forms y su uso con Mono en Linux Mint
  Windows Forms (WinForms): Tecnología de Microsoft .NET para construir interfaces gráficas de usuario para aplicaciones de escritorio en Windows. Usa 
  los controles nativos de Windows.
  
@@ -71,6 +69,6 @@ Ejemplo: LoginScreen miVentanaLogin = new LoginScreen(); // miVentanaLogin es un
  programáticamente (escribiendo código para posicionar y configurar cada control).
  
 Referencia a librerías: Para que el compilador de C# sepa dónde encontrar las definiciones de las clases  * de Windows Forms, se deben incluir referencias 
- a las DLLs relevantes durante la compilación. Ejemplo: -r:System.Windows.Forms.dll -r:System.Drawing.dll
+a las DLLs relevantes durante la compilación. Ejemplo: -r:System.Windows.Forms.dll -r:System.Drawing.dll
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
