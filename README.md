@@ -42,7 +42,7 @@ Ejemplo:
 private void btnIniciarSesion_Click(object sender, EventArgs e)
  {
 // Lógica que se ejecuta cuando el botón 'btnIniciarSesion' es clicado.
- * }
+ }
 
 
 # CONCEPTO 4: Clases y Objetos
@@ -63,5 +63,3 @@ Ejemplo: LoginScreen miVentanaLogin = new LoginScreen(); // miVentanaLogin es un
  
 Referencia a librerías: Para que el compilador de C# sepa dónde encontrar las definiciones de las clases  * de Windows Forms, se deben incluir referencias 
 a las DLLs relevantes durante la compilación. Ejemplo: -r:System.Windows.Forms.dll -r:System.Drawing.dll
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------
